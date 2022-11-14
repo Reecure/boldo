@@ -1,0 +1,9 @@
+!!!!SUPER
+NavBar styling + responsive burger
+
+
+------------------
+1.Header graphics do animation 
+2.fix right shadow on logos carousel in header
+3.Features cards -responsive corousel when width < 1200
+4.Footer email address send animation

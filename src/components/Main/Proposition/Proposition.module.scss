@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image {
+  margin-top: 12.4rem;
+  grid-column: 1/12;
+}
+
+.cards {
+  .card {
+    height: 144px;
+    width: 300px;
+    background-color: rgb(44, 34, 58);
+  }
+  button {
+    margin-top: 8.4rem;
+    margin-bottom: 12.4rem;
+  }
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(auto, 10rem) 1fr minmax(auto, 10rem);
+}
+
+.features {
+  grid-column: 2/15;
+}
+.enterprise {
+  grid-column: 1/6;
+}
+
+.proposition {
+  grid-column: 2/15;
+}
