@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   align-items: center;
-  justify-content: center;
+
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: min-content;
   margin-top: 18.5rem;
@@ -10,26 +10,29 @@
 
 .imagesBlock {
   display: flex;
-  align-items: center;
+
   justify-content: center;
   grid-column: 1/7;
 }
 .images {
+  position: relative;
   margin: 0;
-  display: block;
 }
 
 .manWithPhone {
-  position: absolute;
+  width: 500px;
+  height: 500px;
+  position: relative;
 }
 .graphicOnManWithPhone {
-  position: relative;
-  top: 190;
-  left: 155;
+  position: absolute;
+  top: 200px;
+  left: 165px;
 }
 
 .contentBlock {
   grid-column: 8/13;
+  margin-left: 1.5rem;
   h3 {
     font-size: 3.6rem;
     font-family: "Manrope", sans-serif;

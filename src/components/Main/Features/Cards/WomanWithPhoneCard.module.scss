@@ -1,0 +1,41 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: space-around;
+}
+
+.contentBlock {
+  grid-column: 1/7;
+  h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 3.6rem;
+    line-height: 5.6rem;
+    font-weight: 400;
+    margin-bottom: 6.4rem;
+  }
+  p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+    padding: 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.imageBlock {
+  grid-column: 8/13;
+  .images {
+    position: relative;
+  }
+
+  .womanWithPhone {
+    position: relative;
+    margin-bottom: 28.9rem;
+  }
+
+  .womanWithPhoneGraphic {
+    top: 275px;
+    left: 16px;
+    position: absolute;
+  }
+}
