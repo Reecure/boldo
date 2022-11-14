@@ -1,0 +1,28 @@
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr auto;
+}
+.logo {
+  align-items: start;
+}
+
+.links {
+  display: flex;
+  grid-column: 2/3;
+  justify-content: end;
+}
+
+.links ul {
+  display: flex;
+  align-items: end;
+
+  li {
+    list-style: none;
+    margin-right: 4rem;
+  }
+}
+
+.loginBtn {
+}
