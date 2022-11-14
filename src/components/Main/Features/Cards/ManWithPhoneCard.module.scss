@@ -1,0 +1,42 @@
+.wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: min-content;
+  margin-top: 18.5rem;
+  margin-bottom: 22rem;
+}
+
+.imagesBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/7;
+}
+.images {
+  margin: 0;
+  display: block;
+}
+
+.manWithPhone {
+  position: absolute;
+}
+.graphicOnManWithPhone {
+  position: relative;
+  top: 190;
+  left: 155;
+}
+
+.contentBlock {
+  grid-column: 8/13;
+  h3 {
+    font-size: 3.6rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+  }
+  p {
+  }
+  button {
+  }
+}

@@ -2,28 +2,56 @@
   font-size: 16px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+
   grid-template-rows: repeat(5, min-content);
 }
 
 .title {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, min-content);
   text-align: center;
   grid-column: 1/13;
   grid-row: 1/2;
+
+  .titleTop {
+    margin-top: 8.2rem;
+    margin-bottom: 1.2rem;
+    grid-column: 6/8;
+    grid-row: 1/2;
+
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+  .titleBottom {
+    grid-column: 3/10;
+    grid-row: 2/3;
+    font-family: "Manrope", sans-serif;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+  }
 }
 
 .featuresCard {
   display: flex;
-  justify-content: center;
-  grid-column: 1/13;
+  justify-content: space-around;
+  flex-direction: row;
+  grid-column: 1/12;
   grid-row: 2/3;
 }
 
 .bestForCustomersMen {
-  grid-column: 1/13;
+  grid-column: 1/12;
   grid-row: 3/4;
 }
 
 .bestForCustomersWoman {
   grid-column: 1/13;
   grid-row: 4/5;
+}
+
+.block {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(53, 42, 75);
 }
