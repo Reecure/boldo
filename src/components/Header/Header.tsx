@@ -5,7 +5,7 @@ import { LogosCarousel } from "./logosCarousel/logosCarousel";
 
 export const Header = () => {
   return (
-    <header className={s.header}>
+    <div className={s.header}>
       <div className={s.wrapper}>
         <div className={s.navbar}>
           <Navbar />
@@ -32,6 +32,6 @@ export const Header = () => {
           <LogosCarousel />
         </div>
       </div>
-    </header>
+    </div>
   );
 };

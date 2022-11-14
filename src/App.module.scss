@@ -1,0 +1,18 @@
+.wrapper {
+  display: grid;
+
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(3, min-content);
+}
+.header {
+  grid-column: 1/16;
+}
+.main {
+  grid-column: 2/15;
+  grid-row: 2/3;
+}
+
+.footer {
+  grid-column: 2/15;
+  grid-row: 3/4;
+}

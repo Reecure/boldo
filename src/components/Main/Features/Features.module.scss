@@ -1,0 +1,29 @@
+.wrapper {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, min-content);
+}
+
+.title {
+  text-align: center;
+  grid-column: 1/13;
+  grid-row: 1/2;
+}
+
+.featuresCard {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/13;
+  grid-row: 2/3;
+}
+
+.bestForCustomersMen {
+  grid-column: 1/13;
+  grid-row: 3/4;
+}
+
+.bestForCustomersWoman {
+  grid-column: 1/13;
+  grid-row: 4/5;
+}

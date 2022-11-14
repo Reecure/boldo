@@ -9,8 +9,10 @@ export const Features = () => {
         <div className={s.titleBottom}>
           Handshake infographic mass market crowdfunding iteration.
         </div>
-        <div className={s.featuresCard}></div>
       </div>
+      <div className={s.featuresCard}>Card Card Card</div>
+      <div className={s.bestForCustomersMen}>Card</div>
+      <div className={s.bestForCustomersWoman}>Card</div>
     </div>
   );
 };
